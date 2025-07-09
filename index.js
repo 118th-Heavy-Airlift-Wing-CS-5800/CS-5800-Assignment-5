@@ -22,6 +22,7 @@ app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 }); 
 
+
 const budgetRoutes = require('./routes/budgetRoutes');
 app.use('/api/budgets', budgetRoutes);
 
