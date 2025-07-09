@@ -6,7 +6,6 @@ const budgetRoutes = require('./routes/budgetRoutes');
 const expenseRoutes = require('./routes/expenseRoutes');
 
 const app = express();
-app.use(express.static('public'));
 const PORT = process.env.PORT || 3000;
 
 // Middleware
