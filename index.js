@@ -25,5 +25,4 @@ app.listen(PORT, () => {
 
 app.use('/api/budgets', budgetRoutes);
 
-const expenseRoutes = require('./routes/expenseRoutes');
 app.use('/api/expenses', expenseRoutes);
